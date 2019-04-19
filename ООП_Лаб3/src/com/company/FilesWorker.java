@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class FilesWorker {
-    public String path = "C:\\Users\\MASTER\\Desktop\\ЛАБИ І ВСЕ РЕШТА\\програмач\\Ява\\ООП_Лаб3";
+    public String path = "C:\\";
 
     protected TradePoint shop = new TradePoint();
     protected ArrayList base = new ArrayList();
