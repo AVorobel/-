@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12" class="java.beans.XMLDecoder">
+ <object class="com.company.TradePoint" id="TradePoint0">
+  <void class="com.company.TradePoint" method="getField">
+   <string>specialization</string>
+   <void method="set">
+    <object idref="TradePoint0"/>
+    <string>asdasd
+</string>
+   </void>
+  </void>
+  <void class="com.company.TradePoint" method="getField">
+   <string>name</string>
+   <void method="set">
+    <object idref="TradePoint0"/>
+    <string>sdfsd
+</string>
+   </void>
+  </void>
+  <void class="com.company.TradePoint" method="getField">
+   <string>adress</string>
+   <void method="set">
+    <object idref="TradePoint0"/>
+    <string>V.Vsdf 5
+</string>
+   </void>
+  </void>
+  <void class="com.company.TradePoint" method="getField">
+   <string>numbers</string>
+   <void method="set">
+    <object idref="TradePoint0"/>
+    <array class="java.lang.String" length="1">
+     <void index="0">
+      <string>+380658915624
+</string>
+     </void>
+    </array>
+   </void>
+  </void>
+  <void class="com.company.TradePoint" method="getField">
+   <string>WorkTime</string>
+   <void method="set">
+    <object idref="TradePoint0"/>
+    <object class="com.company.WorkTime" id="WorkTime0">
+     <void class="com.company.WorkTime" method="getField">
+      <string>MONDAY</string>
+      <void method="set">
+       <object idref="WorkTime0"/>
+       <string>10:00-19:00 MONDAY
+</string>
+      </void>
+     </void>
+     <void class="com.company.WorkTime" method="getField">
+      <string>TUESDAY</string>
+      <void method="set">
+       <object idref="WorkTime0"/>
+       <string>10:00-19:00 TUESDAY
+</string>
+      </void>
+     </void>
+     <void class="com.company.WorkTime" method="getField">
+      <string>WEDNESDAY</string>
+      <void method="set">
+       <object idref="WorkTime0"/>
+       <string>10:00-19:00 WEDNESDAY
+</string>
+      </void>
+     </void>
+     <void class="com.company.WorkTime" method="getField">
+      <string>THURSDAY</string>
+      <void method="set">
+       <object idref="WorkTime0"/>
+       <string>10:00-19:00 THURSDAY
+</string>
+      </void>
+     </void>
+     <void class="com.company.WorkTime" method="getField">
+      <string>FRIDAY</string>
+      <void method="set">
+       <object idref="WorkTime0"/>
+       <string>10:00-19:00 FRIDAY
+</string>
+      </void>
+     </void>
+     <void class="com.company.WorkTime" method="getField">
+      <string>SATURDAY</string>
+      <void method="set">
+       <object idref="WorkTime0"/>
+       <string>10:00-19:00 SATURDAY
+</string>
+      </void>
+     </void>
+     <void class="com.company.WorkTime" method="getField">
+      <string>SUNDAY</string>
+      <void method="set">
+       <object idref="WorkTime0"/>
+       <string>10:00-19:00 SUNDAY
+</string>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
