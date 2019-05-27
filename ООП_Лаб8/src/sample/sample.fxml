@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="667.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <tabs>
+    <Tab text="ShopBase">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="list_table" layoutX="7.0" layoutY="18.0" prefHeight="389.0" prefWidth="572.0" />
+                  <Button fx:id="butt_refresh" layoutX="582.0" layoutY="105.0" mnemonicParsing="false" onAction="#show" prefHeight="38.0" prefWidth="71.0" text="refresh" />
+                  <Button fx:id="butt_clear" layoutX="580.0" layoutY="174.0" mnemonicParsing="false" onAction="#clear" prefHeight="38.0" prefWidth="75.0" text="Clear" />
+                  <Button fx:id="butt_sort" layoutX="581.0" layoutY="43.0" mnemonicParsing="false" onAction="#sort" prefHeight="37.0" prefWidth="73.0" text="sort" />
+                  <Button fx:id="butt_remove" layoutX="579.0" layoutY="237.0" mnemonicParsing="false" onAction="#remove" prefHeight="42.0" prefWidth="78.0" text="Remove" />
+                  <TextField fx:id="text_remove" layoutX="582.0" layoutY="286.0" prefHeight="25.0" prefWidth="70.0" visible="false" />
+                  <Button fx:id="butt_ok" layoutX="601.0" layoutY="311.0" mnemonicParsing="false" onAction="#removecontinue" text="OK" visible="false" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="MyShop">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="text_name" layoutX="47.0" layoutY="41.0" prefHeight="27.0" prefWidth="134.0" promptText="NAME" />
+                  <Button fx:id="butt_addshop" layoutX="275.0" layoutY="370.0" mnemonicParsing="false" onAction="#add" prefHeight="40.0" prefWidth="117.0" text="ADD SHOP" />
+                  <TextField fx:id="text_address" layoutX="47.0" layoutY="68.0" prefHeight="25.0" prefWidth="135.0" promptText="ADDRESS" />
+                  <TextField fx:id="text_spec" layoutX="47.0" layoutY="93.0" prefHeight="25.0" prefWidth="134.0" promptText="SPEZIALIZATION" />
+                  <TextField fx:id="text_number" layoutX="47.0" layoutY="312.0" promptText="NUMBERS" />
+                  <TextField fx:id="text_mon" layoutX="360.0" layoutY="41.0" promptText="MONDAY" />
+                  <TextField fx:id="text_tue" layoutX="360.0" layoutY="66.0" promptText="TUESDAY" />
+                  <TextField fx:id="text_wed" layoutX="360.0" layoutY="91.0" promptText="WEDNESDAY" />
+                  <TextField fx:id="text_thu" layoutX="360.0" layoutY="116.0" promptText="THURSDAY" />
+                  <TextField fx:id="text_fri" layoutX="360.0" layoutY="141.0" promptText="FRIDAY" />
+                  <TextField fx:id="text_sat" layoutX="360.0" layoutY="166.0" promptText="SATURDAY" />
+                  <TextField fx:id="text_sun" layoutX="360.0" layoutY="191.0" promptText="SUNDAY" />
+                  <TextField editable="false" layoutX="360.0" layoutY="14.0" text="Input work time" />
+                  <Button fx:id="butt_addnumber" layoutX="196.0" layoutY="312.0" mnemonicParsing="false" onAction="#addNumber" text="add" textFill="#0a0a0a" />
+                  <TextField editable="false" layoutX="47.0" layoutY="14.0" prefHeight="25.0" prefWidth="179.0" text="Input information about shop" />
+                  <TextField editable="false" layoutX="47.0" layoutY="141.0" text="Input shop numbers" />
+                  <TextArea fx:id="number_collection" editable="false" layoutX="47.0" layoutY="166.0" prefHeight="146.0" prefWidth="200.0" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
